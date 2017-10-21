@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Star Wars Sparring</title>
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Audiowide|Nobile" rel="stylesheet">
+	
+	
+</head>
+<body>
+	<h1 id="banner">Star Wars Sparring</h1>
+	<div class="green" id="char-start">
+
+		<button class="char" value="rey"><p>Rey</p><img src="./assets/images/rey.jpg"><p class="hp">150</p></button>
+
+		<button class="char" value="leia"><p>Leia Organa Solo</p><img src="./assets/images/leia.jpg"><p class="hp">155</p></button>
+
+		<button class="char" value="luke"><p>Luke Skywalker</p><img src="./assets/images/luke.jpg"><p class="hp">140</p></button>		
+
+		<button class="char" value="mara"><p>Mara Jade</p><img src="./assets/images/mara.jpg"><p class="hp">145</p></button>
+
+		
+	</div>
+
+	<div class="row">
+		<h2>You are sparring as:</h2>
+	
+	<div class="col-md-12 green" id="pc-home">
+	</div>
+	
+	<div class="row">
+		<h2>Future Sparring Partners</h2>
+		<div class="col-md-12" id="avail-partners">
+			
+		</div>
+	</div>
+	<div class="row">
+		<h2>Fight Section</h2>
+		<div class="col-md-12" id="spar-sect">
+			<button class="btn buttDo" 
+			id="att-butt">Attack</button>
+		</div>
+	</div>
+	<div class="row">
+		<h2>Current Sparring Partner</h2>
+		<div class="col-md-12" id="npc-home">
+		</div>
+		<h2 class="won">Congratulations! You win!</h2>
+		<h2 class="lost">Game Over</h2>
+		<h2 class="continue">Please choose your next sparring partner</h2>
+	</div>
+	<div class="col-md-12"><button class="btn buttDo won lost" id="spar-butt">Spar Again</button>
+	</div>
+	
+
+<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="./assets/javascript/game.js"></script>
+</body>
+</html>

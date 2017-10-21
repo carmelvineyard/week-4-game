@@ -1,0 +1,70 @@
+body {
+	background-image: url("../images/bg6.jpg");
+	background-repeat: repeat-y;
+	/*background-position: center;*/
+	background-size: cover;
+	color: #bde9d9;
+	padding: 3%;
+	font-family: 'Nobile', sans-serif;
+}
+
+#banner {
+	color: #72c0a5;
+	float: right;
+	font-family: 'Audiowide', cursive;
+}
+
+div h2 {
+	color: #72c0a5;
+	font-family: 'Audiowide', cursive;
+}
+
+button .char {
+	height: 150px;
+	width: 200px;
+	padding-top: 3px;
+	display: inline;
+}
+
+button p {
+	font-family: 'Nobile', sans-serif;
+	color: #02193c;
+}
+
+button img {
+	height: 75px;
+	width: 100px;
+	margin: 5px 15px;
+}
+
+.green button {
+	border: solid 3px #72c0a5;
+	background-color: #fdf9f1;
+}
+
+
+#avail-partners button {
+	background-color: #6f1e1e;
+	border: solid 3px #fdf9f1;
+}
+
+#avail-partners button p {
+	color: #fdf9f1;
+}
+
+#npc-home button {
+	background-color: #030316;
+	border: solid 3px #6f1e1e;
+}
+
+#npc-home button p {
+	color: #fdf9f1;
+}
+
+.buttDo {
+	background-color: #72c0a5;
+	color: #fffcfc;
+	font-family: 'Nobile', sans-serif;
+	
+}
+
